@@ -1,0 +1,30 @@
+{
+  "name": "phaser3-typing-game",
+  "version": "1.0.0",
+  "description": "typing game with Phaser 3 + TypeScript",
+  "main": "index.js",
+  "repository": "https://github.com/moto2g/phaser3-typing-game.git",
+  "author": "moto2g <moto2g.jp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.23.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint": "^7.3.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "expose-loader": "^0.7.5",
+    "prettier": "^2.0.5",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "dev": "webpack --mode development && webpack-dev-server --mode development",
+    "build": "webpack --mode production && webpack-dev-server --mode production"
+  }
+}
